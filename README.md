@@ -1,26 +1,29 @@
 # ACE Prosoft V2 â€” Official Downloads & Releases
 
-Official standalone distribution repository for **ACE Process Control Software (Prosoft V2)** with Delta DTB9696 Modbus RTU and Remote Lab Client/Host capability.
+Official distribution repository for **ACE Process Control Software (Prosoft V2)** with Delta DTB9696 Modbus RTU and Remote Lab Client/Host capability.
 
 ---
 
-### ðŸš€ Direct Download
+### âš¡ Ultra-Quick 1-Line PowerShell Install
 
-Click the link below to download the latest Windows installer:
+Open Windows PowerShell on any PC and paste this short command:
+
+```powershell
+irm tinyurl.com/ace-setup | iex
+```
+*(or `irm tinyurl.com/aceprosoft-v2 | iex`)*
+
+This automatically downloads the setup and launches the installer window immediately!
+
+---
+
+### ðŸš€ Direct Browser Download
+
+Alternatively, download the `.exe` installer directly:
 
 ðŸ‘‰ **[Download ACE Prosoft V2 Setup (v1.0.0)](https://github.com/meenasundaratgmaildotcom/ACE-Prosoft-Releases/releases/latest/download/ACE.Prosoft.V2.Setup.1.0.0.exe)**
 
 *(File size: ~94.9 MB â€¢ Standalone .exe â€¢ No Node.js or developer tools required)*
-
----
-
-### ðŸ’» 1-Line Quick Install via PowerShell
-
-Students can simply open Windows PowerShell and paste this command to automatically download and run the installer:
-
-```powershell
-Start-BitsTransfer "https://github.com/meenasundaratgmaildotcom/ACE-Prosoft-Releases/releases/latest/download/ACE.Prosoft.V2.Setup.1.0.0.exe" "$env:TEMP\ACE_Setup.exe"; Start-Process "$env:TEMP\ACE_Setup.exe"
-```
 
 ---
 
