@@ -1,0 +1,13 @@
+{
+  "name": "ace-prosoft-v2",
+  "version": "2.0.0",
+  "description": "Installer runner for ACE Process Control Software V2 (Level Process Trainer ACE 101)",
+  "bin": {
+    "ace-prosoft": "./bin/install.js"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/install.js"
+  },
+  "author": "Advanced Control Equipments",
+  "license": "ISC"
+}

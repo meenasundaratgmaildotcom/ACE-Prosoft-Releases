@@ -1,35 +1,47 @@
-# ACE Prosoft V2 â€” Official Downloads & Releases
+# ACE Prosoft V2 — Official Downloads & Releases
 
 Official distribution repository for **ACE Process Control Software (Prosoft V2)** with Delta DTB9696 Modbus RTU and Remote Lab Client/Host capability.
 
 ---
 
-### âš¡ Ultra-Quick 1-Line PowerShell Install
+### 📦 Install via `npm` (Direct Node.js / Terminal Install)
 
-Open Windows PowerShell on any PC and paste this short command:
+You can install and launch the setup directly onto any system using npm:
+
+```bash
+npm install -g https://github.com/meenasundaratgmaildotcom/ACE-Prosoft-Releases.git
+```
+*(or run on-demand without installing globally)*:
+```bash
+npx https://github.com/meenasundaratgmaildotcom/ACE-Prosoft-Releases.git
+```
+
+---
+
+### ⚡ 1-Line PowerShell Install (No Node.js Required)
+
+Open Windows PowerShell on any PC and paste this command:
 
 ```powershell
-irm tinyurl.com/ace-setup | iex
+irm https://raw.githubusercontent.com/meenasundaratgmaildotcom/ACE-Prosoft-Releases/main/install.ps1 | iex
 ```
-*(or `irm tinyurl.com/aceprosoft-v2 | iex`)*
 
 This automatically downloads the setup and launches the installer window immediately!
 
 ---
 
-### ðŸš€ Direct Browser Download
+### 🚀 Direct Browser Download
 
-Alternatively, download the `.exe` installer directly:
+Alternatively, download the `.exe` installer directly from GitHub Releases:
 
-ðŸ‘‰ **[Download ACE Prosoft V2 Setup (v1.0.0)](https://github.com/meenasundaratgmaildotcom/ACE-Prosoft-Releases/releases/latest/download/ACE.Prosoft.V2.Setup.1.0.0.exe)**
+👉 **[Download ACE Prosoft V2 Setup (v2.0.0)](https://github.com/meenasundaratgmaildotcom/ACE-Prosoft-Releases/releases/download/v2.0.0/ACE.Prosoft.V2.Setup.2.0.0.exe)**
 
-*(File size: ~94.9 MB â€¢ Standalone .exe â€¢ No Node.js or developer tools required)*
+*(File size: ~117 MB • Standalone .exe with anti-crack code protection • No developer tools required)*
 
 ---
 
-### ðŸŒ Connecting as a Remote Student
+### 🌐 Connecting as a Remote Student
 1. Launch **ACE Prosoft V2** from your Desktop shortcut.
-2. In the top menu, click **COM Port** â†’ **Communication Setup & Remote Lab...**
-3. Select the **ðŸŒ Remote Lab Client (Student Mode)** tab.
-4. Enter the **Host URL** (e.g. `https://xxxx.trycloudflare.com`) and the **Access Passkey** (e.g. `ACE-101`) provided by your instructor.
-5. Click **Connect to Remote Lab** to begin receiving real-time hardware data!
+2. In the top menu, click **Communication** → **Remote Lab Gateway & Cloud Synchronization...**
+3. Under the **🏠 Local Network** or **🌐 Internet Remote Tunnel** tab, enter the **Host URL** and **Access Passkey** provided by your instructor.
+4. Click **Connect to Remote Lab** to begin receiving real-time hardware data!
